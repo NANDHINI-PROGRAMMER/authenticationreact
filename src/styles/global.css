@@ -1,0 +1,54 @@
+/* Label styles */
+.form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  
+  /* Required asterisk */
+  .required {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Input field styles */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #6b46c1;
+  }
+  
+  /* Radio button styles */
+  .radio-btn {
+    width: 16px;
+    height: 16px;
+    accent-color: #6b46c1;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    background-color: #6b46c1;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #5a3ea1;
+  }
+  
